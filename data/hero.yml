@@ -1,0 +1,9 @@
+---
+enable               : true
+heading              : "We’re a Design Studio That Belies In the Great Ideas for"
+tagline              : "WE WORK HARD, WE PLAY HARD"
+primary_button       : "See Our Works"
+primary_button_url   : "portfolio"
+secondary_button     : "Connect with Us"
+secondary_button_url : "contact"
+---

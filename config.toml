@@ -1,0 +1,85 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ROXO"
+theme= "roxo"
+paginate = 4
+
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.main]]
+    name    = "Home"
+    url     = "/"
+    identifier = "home"
+    weight  = 1
+    
+  [[menu.main]]
+    name    = "About"
+    url     = "/about/"
+    identifier = "about"
+    weight  = 2
+  [[menu.main]]
+    name    = "Portfolio"
+    url     = "/portfolio/"
+    identifier = "portfolio"
+    weight  = 3
+  [[menu.main]]
+    name    = "Blog"
+    url     = "/blog/"
+    identifier = "blog"
+    weight  = 4
+ 
+# Sitemap Menu
+  [[menu.sitemap]]
+    name    = "About Comapny"
+    url     = "about"
+    weight  = 1
+
+  [[menu.sitemap]]
+    name    = "Projects"
+    url     = "portfolio"
+    weight  = 2
+
+  [[menu.sitemap]]
+    name    = "Design Process"
+    url     = "blog"
+    weight  = 3
+
+  [[menu.sitemap]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 4
+
+[params]
+  logo = "images/logo.png"
+  footerLogo = "images/logo-footer.png"
+  blogPageURL = "blog"
+  contactLink = "contact"
+  copyright = "All right reserved copyright © roxo 2021"
+  googleAnalytics = "UA-175025671-1"
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+
+  [params.footer]
+      # Footer Contact Info
+      [params.footer.contactInfo]
+        address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+        phone   = "409-896-1444"
+        email   = "info@roxo.co"
+      # Footer Social Media
+      [[params.footer.social.link]]
+        name = "Medium"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Behance"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Dribbble"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Instagram"
+        url  = "#"
+
+      [params.footer.service]
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
