@@ -10,8 +10,7 @@
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
           <h4>{{.Params.form_heading}}</h4>
-          <form action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
-            <div class="row">
+          <form class="row" id="contact-form" method="POST" action={{ .Site.Params.formspreeFormUrl }}>
               <div class="col-lg-6">
                 <input type="text" class="form-control" name="first-name" id="first-name" placeholder="First Name">
               </div>
@@ -32,18 +31,18 @@
                 </div>
               </div>
               <div class="col-12">
-                <textarea class="form-control" id="aboutProject" rows="6" placeholder="About the Project"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="6" placeholder="About the Project"></textarea>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
                   <span class="btn-area">
                     <span data-text="Send Message">
                       Send Message
                     </span>
                   </span>
                 </button>
+                <p id="contact-form-status"></p>
               </div>
-            </div>
           </form>
         </div>
       </div>
