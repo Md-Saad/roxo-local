@@ -32,6 +32,7 @@ sections:
 - type: document
   path: data/team.yml
   label: Team
+  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
