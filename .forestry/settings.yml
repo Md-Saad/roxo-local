@@ -30,9 +30,9 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: data/team.yml
+  path: data
   label: Team
-  read_only: true
+  read_only: false
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
