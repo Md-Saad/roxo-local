@@ -1,0 +1,22 @@
+---
+label: front_matter
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: heading
+  label: heading
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: expertise_title
+  label: expertise_title
+- type: list
+  name: expertise_sectors
+  label: expertise_sectors
