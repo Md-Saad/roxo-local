@@ -1,5 +1,5 @@
 ---
-label: front_matter
+label: about
 hide_body: true
 fields:
 - type: text
