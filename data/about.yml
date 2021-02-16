@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: Who trust our judgment
 client_logos:
 - images/clients/client-logo-one.png
@@ -12,7 +12,6 @@ client_logos:
 - images/clients/client-logo-eight.png
 - images/clients/client-logo-nine.png
 - images/clients/client-logo-ten.png
-
 member_title: Team that makes the difference.
 member_details:
 - image: images/team/team-member-one.jpg
@@ -51,4 +50,3 @@ member_details:
   medium: https://www.medium.com/
   linkedIn: https://www.linkedin.com/
   instagram: https://www.instagram.com/
----

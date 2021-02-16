@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/counter.yml
   label: Counter
-  match: "**/*"
 - type: document
   path: data/about.yml
   label: Team
