@@ -30,7 +30,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: data
+  path: data/*
   label: Team
 upload_dir: static/images
 public_path: "/images"
