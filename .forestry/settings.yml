@@ -29,9 +29,6 @@ sections:
   label: About
   create: all
   match: "**/*"
-- type: document
-  path: data/*
-  label: Team
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
