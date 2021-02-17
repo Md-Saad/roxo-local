@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: data/*
+  label: Data
+  match: "**/*"
+- type: document
   path: data/counter.yml
   label: Counter
 - type: document
