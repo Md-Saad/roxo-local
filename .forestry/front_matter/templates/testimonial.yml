@@ -1,0 +1,29 @@
+---
+label: testimonial
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: sub_heading
+  label: sub_heading
+- type: field_group_list
+  name: testimonial_items
+  label: testimonial_items
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: thumb
+    label: thumb
+  - type: text
+    name: designation
+    label: designation
+  - type: textarea
+    name: comment
+    label: comment
